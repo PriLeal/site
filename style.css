@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+header{
+    background-image: url(imagens/pet\ home.jpg);
+    background-size: cover;
+    height: 90rem;
+    width: 120rem; 
+    /* display: flexbox; */
+  
+}
+
+header nav a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 50px;
+    font-family: fantasy;
+    opacity: 0.8;
+   
+}
+
+a:hover{
+    color: #9d0808;
+    opacity: 1;
+}
+
+.li{
+  position: relative;
+  float: right;
+  text-decoration: none;
+  list-style: none;
+  padding: 20px;
+
+}
+
+#pet{  
+    margin: 50px;
+    padding: 30px;
+    color: #4c1130;
+    font-family: fantasy;
+    font-size: 30px;
+    background-color: rgb(213, 224, 251);
+    
+}
+
+#afeto{
+    background-image: url(imagens/cachorro-gato.jpg);
+    background-size: cover;
+    height: 700px;
+    width: 1900px;   
+}
+
+#afeto h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #660000;
+    font-size: 40px;
+    position: absolute;
+    padding: 40px;
+}
+   
+
+#promoção{
+    background-color: rgb(87, 87, 246);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;  
+}
+
+#promoção legend{
+    border:20px;
+    border-style:double;
+    padding: 30px;
+   
+}
+
+#promoção legend p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+#aproveite{
+    background-color: rgb(87, 87, 246);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin: 20px;
+}
+
+#produtos{
+    margin: 20px;
+    padding: 30px;
+    background-image: url(imagens/fundo\ azul.jpeg);
+    background-size: cover;
+    color:  #312101;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+#imagens{
+    margin: 20px;
+    padding: 40px;
+    background-image: url(imagens/fundo\ azul.jpeg);
+    background-size: cover;
+    display:flex; 
+}
+
+#imagens legend{
+    border:20px;
+    border-style: dotted;
+    border-color: #f4ab25;
+    padding: 30px;
+    text-align: center;
+    
+}
+
+#imagens legend p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    color: #312101;
+    font-size: 40px;
+    text-align: center;
+}
+
+#endereço{
+    color:#19095f;
+    font-size: 50px;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(166, 166, 243);
+    text-align: center;
+}
+
+#bichinhos{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin: 40px;
+    outline-width: 10px;
+    outline-style: dashed;
+    outline-color: #19095f;
+    border-radius: 20px;    
+
+}
+
+#video{
+    text-align: center;
+    padding: 30px;
+    background-color: #9dcbf6;
+    width: 1850px;
+}
+
+#video h1{
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+.form{
+    background-color: #19095f;
+    color: #9dcbf6;
+    padding: 60px;
+    font-size: 40px;
+}
+
+button{
+    font-size: 30px;
+    padding: 20px;
+    margin: 30px;
+    background-color:  #4c1130;
+    color: white;
+    border-radius: 20px;
+    opacity: 0.8;
+
+}
+
+button:hover{
+    opacity: 1;
+    background-color:  rgb(6, 2, 40);
+    color: white;
+  
+}
+
+button a {
+    color: white;
+}
+
+button a:hover{
+    color: white;
+}
+
+#carrossel{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#carrossel img{
+    border: 20px;
+    border-color: #19095f;
+    border-style: double;
+    border-radius: 20px;
+    margin: 10px;
+
+}
+
+footer{
+    background-color: #19095f;
+    color: #9dcbf6;
+    padding: 60px;
+}
+
+.meu-nome{
+    position: relative;
+    float: right;
+    font-size: 20px;
+}
